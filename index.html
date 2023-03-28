@@ -1,16 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <title>My NM2207 GitHub Portfolio</title>
-    <script src="scripts/counter.js"></script>
-    <link rel="stylesheet" href="styles/styles.css" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Scholar - Online School HTML5 Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 586 Scholar
+
+https://templatemo.com/tm-586-scholar
+
+-->
   </head>
-  <body>
-    <h1>Hello world! 🚀</h1>
-    <h2>This is Nastya on the line.</h2>
-    <h3>Here's a hungry mouse. Please feed him!</h3>
-    <h3 class="mouse">🐁</h3>
-    <h3>Food counter: <span class="counter">0</span> 🥙</h3>
-    <button>Feed!</button>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1>NM2207</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Serach Start ***** -->
+                   
+                    <!-- ***** Serach Start ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li class="scroll-to-section"><a href="#top" class="active">My Big Idea</a></li>
+                      <li class="scroll-to-section"><a href="#services">Background</a></li>
+                      <li class="scroll-to-section"><a href="#courses">Data</a></li>
+                      <li class="scroll-to-section"><a href="#team">Findings</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-banner">
+            <div class="item item-1">
+              <div class="header-text">
+                <span class="category">Big Idea</span>
+                <h2>No perks of being a wallflower</h2>
+                <p> Students should not be afraid to invest time into their personal lives. Building and having strong family and romatic relatinship can benefit the academic success and provide additional support during hard times.  </p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#PS">Problem Statement</a>
+                    <p>The button for some reason doesn't work, even though I have lonked it the id of the next slide</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item item-2" id = "PS">
+              <div class="header-text">
+                <span class="category">Problem Statement</span>
+                <h2>Students' misperception that active social life always negatively affects academic life</h2>
+                <p> The goal of this study is to prove the opposite</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#">Go to findings</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="services section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-01.png" alt="online degrees">
+            </div>
+            <div class="main-content">
+              <h4>Aim</h4>
+              <p>The aim of this project is to demonstrate how various personal life factors, such as family, friends and romantic relationships, and their interactions influence academic success of a student.</p>
+          
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-02.png" alt="short courses">
+            </div>
+            <div class="main-content">
+              <h4>Research gap</h4>
+              <p> Most academic literature focuses on the negative effect of romantic relationships on academic performance. However,a few novel studies have emphasized the positive impact interpersonal factors may have on academic success of the student. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-03.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Personal observations</h4>
+              <p>'You know, I'll pass tonight'. <br> Since I came to NUS, I heard a lot of students saying similar phrases, refusing to go out with friends for the sake of studying, missing out on some wonderful evenings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Dependent Variable
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The measure academic success of student I chose the variable G3. This variable represents the <strong> final average grade for two periods</strong> . The grade scale is from 1 to 20 points.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Categorical Independent Variables
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Romantic relationships</strong> is a binary variable indicating the presence ("yes") or the absence of romantic relationships ("no").
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Numerical Independent Variables
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  In this project I used three numerical predictors. <strong>Going out with friends</strong> measured the frequency on a 5 point Likert scale (1 - very low to 5 - very high).  <strong>Family relationship quality</strong> uses 5-point scale from 1 - very bad to 5 - excellent relationships.
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>The Data</h6>
+            <h2>Which data did I use to test my hypotheses?</h2>
+            <p>The data for this project was taken from the open data source Kaggle.com.  <br> The dataset contains information from 382 secondary school students in Portugal during academic year 2005-2006.</p>
+            <div class="main-button">
+              <a href="https://www.kaggle.com/datasets/uciml/student-alcohol-consumption">Go to data source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section courses" id="courses" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Results</h6>
+            <h2>My findings</h2>
+            <p>Here I am going to show my data visualizations</p>
+          </div>
+        </div>
+      </div>
+
+  
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>The Final Project for NM2207 Module       Created by Anastasiia Anikina</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
   </body>
 </html>
