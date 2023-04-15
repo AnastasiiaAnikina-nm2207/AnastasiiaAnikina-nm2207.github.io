@@ -57,17 +57,17 @@ function linearRegression(x, y) {
         mode: 'lines',
         type: 'line',
         line: {
-          color: 'red',
+          color: 'coral',
           width: 3
         }
       };
     
       // Define the layout for the chart
       var layout = {
-        title: 'Regression Line Plot for Effect of Family Relationship on GPA',
+        title: 'Regression 1: Effect of Family Relationship on GPA',
         xaxis: { title: 'Quality of Family Relationship' },
         yaxis: { title: 'Final Grade',
-                 range: [8, 13],}  // set the range of y-axis
+                 range: [8, 13],}, // set the range of y-axis
       };
     
       // Create the plot using Plotly.newPlot
@@ -116,7 +116,7 @@ for (var groupName in groups) {
         mode: 'lines',
         type: 'line',
         line: {
-            color: groupName === 'yes' ? 'blue' : 'red',
+            color: groupName === 'yes' ? 'indigo' : 'coral',
             width: 3
         },
         name: groupName
@@ -132,7 +132,7 @@ var dataTrace = {
     marker: {
         size: 8,
         color: data.map(function(d) {
-            return d.romantic === 'yes' ? 'blue' : 'red'; // blue for 'yes', red for 'no'
+            return d.romantic === 'yes' ? 'indigo' : 'coral'; // blue for 'yes', red for 'no'
         })
     },
     type: 'scatter',
@@ -141,9 +141,9 @@ var dataTrace = {
 
 // Create the layout for the chart
 var layout = {
-    title: 'Regression Line for Effect of Family Relationship on GPA Moderated by Romantic Status',
+    title: 'Regression 2: Effect of Family Relationship on GPA Moderated by Romantic Relationships',
     xaxis: { title: 'Quality of Family Relationship' },
-    yaxis: { title: 'Final Grade', range: [5, 15] }, // set the range of y-axis
+    yaxis: { title: 'Final Grade', range: [4, 16] }, // set the range of y-axis
     showlegend: true
 };
 
@@ -205,14 +205,14 @@ function linearRegression2(x, y) {
         mode: 'lines',
         type: 'line',
         line: {
-          color: 'red',
+          color: 'indigo',
           width: 3
         }
       };
     
       // Define the layout for the chart
       var layout = {
-        title: 'Regression line for the effect of going out of the average grade',
+        title: 'Regression 3: Effect of Going Out with Friends on GPA',
         xaxis: { title: 'Going out frequency' },
         yaxis: { title: 'Final Grade',
                  range: [5, 15],}  // set the range of y-axis
