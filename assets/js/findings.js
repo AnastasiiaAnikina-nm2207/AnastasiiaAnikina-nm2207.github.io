@@ -70,8 +70,10 @@ function linearRegression(x, y) {
                  range: [8, 13],}, // set the range of y-axis
       };
     
+      var config = {responsive: true};
+
       // Create the plot using Plotly.newPlot
-      Plotly.newPlot('regression', [regressionTrace], layout)
+      Plotly.newPlot('regression', [regressionTrace], layout, config)
 
 
 
@@ -147,11 +149,13 @@ var layout = {
     showlegend: true
 };
 
+var config1 = {responsive: true};
+
 // Combine the regression and data traces into a single array
 var traces = regressionTraces.concat(dataTrace);
 
 // Create the plot using Plotly.newPlot
-Plotly.newPlot('moderation', traces, layout);
+Plotly.newPlot('moderation', traces, layout, config1);
 
 
 
@@ -218,7 +222,9 @@ function linearRegression2(x, y) {
                  range: [5, 15],}  // set the range of y-axis
       };
     
+      var config2 = {responsive: true};
+
       // Create the plot using Plotly.newPlot
-      Plotly.newPlot('regression2', [regressionTrace2], layout)
+      Plotly.newPlot('regression2', [regressionTrace2], layout, config2)
 
   });
